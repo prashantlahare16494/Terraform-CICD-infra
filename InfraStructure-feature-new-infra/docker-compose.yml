@@ -1,0 +1,22 @@
+version: '3.3'
+services:
+  jenkins:
+    image: jenkins-master:0.1
+    privileged: true
+    user: root
+    ports:
+      - 8080:8080
+      - 50000:50000
+    container_name: jenkins
+    volumes:
+      - /home/ubuntu/jenkins_compose/jenkins_configuration:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+  agent:
+    image: jenkins-slave:0.1
+    privileged: true
+    user: root
+    container_name: agent
+    expose:
+      - 22
+    environment:
+      - JENKINS_AGENT_SSH_PUBKEY=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDKlhMNi48lR4POgVZ4j5J4AJZYUVLby6DNBiiiqwW4CG5FlZKkXv4Ukn9oLLcLyRQKP9arJsTQU0O7g3aCyonLIrOa5jHM01VLnzLjtLzKHME6f4fTgaqtGybFe36YYTWuqZD6RLahDxzWsO/bCoBlYgaG12CyZjyzLtUNB5TYimwSXCbU+E1swfhdG+L9G3UU9V8V4zNYjpoer3Bo38ZTXm672UjbHisxsncI9dlv9dD2yUU+yCUfIWzYdjvGyYo8L7hnQhTgGKqdvxZ3Un4TC+GVTg6YjcSP1oUZVP3Hf9wNbLplioJQrgTYNB1gFQnReq2PW09SChjmKXcq9DDTjw3NKntmvWJA0ddi5tGpIBIUN7DeQi0ZFt/glprQSN7C52objIyNCTOlAv/dBsdt5Bqv0phjT63rl7k5uNm9H7DkRJAWxIzP7HO6FGLjk1d3vJ1q5ShjjSvuSV5pFk4OJ//nUg4OtMYv0jweqlmExjAnerqpDUC0IBEsr/xZmAk= prashant . lahare@DESKTOP-GMJSKEK

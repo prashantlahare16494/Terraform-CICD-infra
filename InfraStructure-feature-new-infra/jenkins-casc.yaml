@@ -1,0 +1,399 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - basicSSHUserPrivateKey:
+          description: "jenkins"
+          id: "jenkins"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "jenkins"
+      - string:
+          description: "sonarqube-token-latest"
+          id: "sonarqube-token-latest"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwV+4gCHmeUQHPXLqxB3gzLUxvgrShcKbV++yHTOmXht+UtYkK8Tfd5Ezz9y44JwZkeHKQbSPKOV31+gL4KGmEqQ==}"
+      - basicSSHUserPrivateKey:
+          description: "ansible_ssh_private_key_file"
+          id: "ansible_ssh_private_key_file"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "ansible"
+      - usernamePassword:
+          description: "Docker hub account"
+          id: "Dockerhub"
+          password: "{AQAAABAAAABA81fb/nfc0NSZ84ikLx8AcOo35GOJIrA4FPCAhhKytETT15q8U3y978LqLmfSXO254VBQ0fcu9UQ6AfHVmbfxdtjUKqYNBqvosdaPQ377vP4=}"
+          scope: GLOBAL
+          username: "ExazeITDevops"
+      - basicSSHUserPrivateKey:
+          description: "nexus_token"
+          id: "nexus_token"
+          privateKeySource:
+            directEntry:
+              privateKey: "{AQAAABAAAAAwAtViHG7pEAwqsLH+7zoIEI6y9Ma68frtQJJIfScVkImin5lu2GZsNd+UeQzfJKSICOvoHp6uaOk6DrWkWhxq8w==}"
+          scope: GLOBAL
+          username: "nexus_token"
+      - usernamePassword:
+          description: "githubuser"
+          id: "githubuser"
+          password: "{AQAAABAAAAAw1/+bGfMsT0sWjC/HN86AaKOrnbIyaRTvOWzqhSd1eeEG6OGKlw/ZQnbFN4Aqqp/ZmgEG0MYnz8dbh8aU3jibpA==}"
+          scope: GLOBAL
+          username: "githubuser"
+      - usernamePassword:
+          description: "sonar"
+          id: "sonar"
+          password: "{AQAAABAAAAAQgjfpktfohhysrDjdEP5CISDkH7/qw2R3Os0m7lHKVv0=}"
+          scope: GLOBAL
+          username: "admin"
+      - usernamePassword:
+          description: "NEXUS_CRED"
+          id: "NEXUS_CRED"
+          password: "{AQAAABAAAAAQbbh0HZDTyUbBiJhAotgFnFDTGSxr6CcZqLYxb2QdMPQ=}"
+          scope: GLOBAL
+          username: "admin"
+jenkins:
+  agentProtocols:
+  - "JNLP4-connect"
+  - "Ping"
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: false
+  disableRememberMe: false
+  labelAtoms:
+  - name: "any"
+  - name: "built-in"
+  - name: "jenkins_agent"
+  markupFormatter: "plainText"
+  mode: NORMAL
+  myViewsTabBar: "standard"
+  nodes:
+  - permanent:
+      labelString: "any"
+      launcher:
+        ssh:
+          credentialsId: "jenkins"
+          host: "agent"
+          javaPath: "/opt/java/openjdk/bin/java"
+          port: 22
+          sshHostKeyVerificationStrategy: "nonVerifyingKeyVerificationStrategy"
+      name: "jenkins_agent"
+      nodeDescription: "jenkins_agent"
+      remoteFS: "/home/jenkins/agent"
+      retentionStrategy: "always"
+  numExecutors: 1
+  primaryView:
+    all:
+      name: "all"
+  projectNamingStrategy: "standard"
+  quietPeriod: 5
+  remotingSecurity:
+    enabled: true
+  scmCheckoutRetryCount: 0
+  securityRealm:
+    local:
+      allowsSignup: false
+      enableCaptcha: false
+      users:
+      - id: "admin"
+        name: "prashant"
+        properties:
+        - favoriting:
+            autofavoriteEnabled: true
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - mailer:
+            emailAddress: "prashant.lahare@exazeit.com"
+        - "apiToken"
+        - "favorite"
+      - id: "devops"
+        name: "devops"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - mailer:
+            emailAddress: ""
+  slaveAgentPort: 50000
+  updateCenter:
+    sites:
+    - id: "default"
+      url: "https://updates.jenkins.io/update-center.json"
+  views:
+  - all:
+      name: "all"
+  viewsTabBar: "standard"
+globalCredentialsConfiguration:
+  configuration:
+    providerFilter: "none"
+    typeFilter: "none"
+security:
+  apiToken:
+    creationOfLegacyTokenEnabled: false
+    tokenGenerationOnCreationEnabled: false
+    usageStatisticsEnabled: true
+  gitHooks:
+    allowedOnAgents: false
+    allowedOnController: false
+  gitHostKeyVerificationConfiguration:
+    sshHostKeyVerificationStrategy: "knownHostsFileVerificationStrategy"
+  globalConfigurationImpl:
+    enabled: false
+  kerberosSso:
+    accountName: "Service account"
+    allowBasic: true
+    allowDelegation: false
+    allowLocalhost: true
+    allowUnsecureBasic: true
+    anonymousAccess: false
+    enabled: false
+    krb5Location: "/etc/krb5.conf"
+    loginClientModule: "spnego-client"
+    loginLocation: "/etc/login.conf"
+    loginServerModule: "spnego-server"
+    promptNtlm: false
+    redirectEnabled: false
+  sSHD:
+    port: -1
+  scriptApproval:
+    approvedScriptHashes:
+    - "SHA512:3f205299bef2fe3329258a42f2c60d332cc35ccb41a3ca0512d7869c6aff4561ff708c48123b4f7c3dec33ccca30d54fb8b9b51b5bc7070f96236d11a3f0bdcb"
+    approvedSignatures:
+    - "method org.apache.maven.model.Model getPackaging"
+unclassified:
+  artifactoryBuilder:
+    jfrogPipelinesServer:
+      bypassProxy: false
+      connectionRetries: 3
+      credentialsConfig:
+        ignoreCredentialPluginDisabled: true
+        overridingCredentials: false
+        password: "{AQAAABAAAAAQgMopeHtwY1O7/9VHcRGpmHjtt7AGV5+t28mZL5no0AE=}"
+        username: "****"
+      timeout: 300
+    useCredentialsPlugin: false
+  bitbucketEndpointConfiguration:
+    endpoints:
+    - bitbucketCloudEndpoint:
+        enableCache: false
+        manageHooks: false
+        repositoriesCacheDuration: 0
+        teamCacheDuration: 0
+  buildDiscarders:
+    configuredBuildDiscarders:
+    - "jobBuildDiscarder"
+  buildStepOperation:
+    enabled: false
+  buildUserVars:
+    allBuilds: false
+  dependencyGraphProperty:
+    editFunctionInJSViewEnabled: false
+    graphRankDirection: "TB"
+    graphvizEnabled: true
+    projectNameStripRegex: ".*"
+    projectNameStripRegexGroup: 1
+    projectNameSuperscriptRegexGroup: -1
+  email-ext:
+    adminRequiredForTemplateTesting: false
+    allowUnregisteredEnabled: false
+    charset: "UTF-8"
+    debugMode: false
+    defaultBody: |-
+      $PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:
+
+      Check console output at $BUILD_URL to view the results.
+    defaultContentType: "text/plain"
+    defaultSubject: "$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!"
+    defaultTriggerIds:
+    - "hudson.plugins.emailext.plugins.trigger.FailureTrigger"
+    maxAttachmentSize: -1
+    maxAttachmentSizeMb: -1
+    precedenceBulk: false
+    watchingEnabled: false
+  fingerprints:
+    fingerprintCleanupDisabled: false
+    storage: "file"
+  ghprbTrigger:
+    autoCloseFailedPullRequests: false
+    cron: "H/5 * * * *"
+    extensions:
+    - ghprbSimpleStatus:
+        addTestResults: false
+        showMatrixStatus: false
+    githubAuth:
+    - credentialsId: "sonar"
+      description: "Anonymous connection"
+      id: "9138f531-b21d-43e2-8e08-b8d66fcfaf44"
+      secret: "{AQAAABAAAABAuMjU29me2u1neJuJTw/s8IgKsmb5G1UZC4/ehQ96zwLCHmj+/VKaNbgCJHQGcHAQpD3UQSTV5qg935+/7zeuFv52eICwJ2RGhvydQkqVcIk=}"
+      serverAPIUrl: "https://api.github.com"
+    manageWebhooks: true
+    okToTestPhrase: ".*ok\\W+to\\W+test.*"
+    requestForTestingPhrase: "Can one of the admins verify this patch?"
+    retestPhrase: ".*test\\W+this\\W+please.*"
+    skipBuildPhrase: ".*\\[skip\\W+ci\\].*"
+    useComments: false
+    useDetailedComments: false
+    whitelistPhrase: ".*add\\W+to\\W+whitelist.*"
+  gitHubConfiguration:
+    apiRateLimitChecker: ThrottleForNormalize
+  gitHubPluginConfig:
+    configs:
+    - manageHooks: false
+      name: "Githubserver"
+    hookUrl: "http://ec2-18-118-121-221.us-east-2.compute.amazonaws.com:8080/github-webhook/"
+  gitLabConnectionConfig:
+    connections:
+    - clientBuilderId: "autodetect"
+      connectionTimeout: 10
+      ignoreCertificateErrors: false
+      readTimeout: 10
+    useAuthenticatedEndpoint: true
+  githubPullRequests:
+    actualiseOnFactory: false
+  globalNexusConfiguration:
+    instanceId: "1a9f6e1b25964829a8524005514147b2"
+    nxrmConfigs:
+    - nxrm3Configuration:
+        credentialsId: "NEXUS_CRED"
+        displayName: "Nexus-3"
+        id: "Nexus-3"
+        internalId: "d39b2f24-66c3-4056-a68f-4139d9b44593"
+        serverUrl: "http://ec2-3-20-17-101.us-east-2.compute.amazonaws.com:8081"
+  globalTimeOutConfiguration:
+    operations:
+    - "abortOperation"
+    overwriteable: false
+  injectionConfig:
+    allowUntrusted: false
+    enabled: false
+    injectCcudExtension: false
+    injectMavenExtension: false
+  junitTestResultStorage:
+    storage: "file"
+  loadPublisher:
+    apiKey: "****"
+  location:
+    adminAddress: "address not configured yet <nobody@nowhere>"
+    url: "http://ec2-3-14-37-88.us-east-2.compute.amazonaws.com:8080/"
+  mailer:
+    charset: "UTF-8"
+    useSsl: false
+    useTls: false
+  mavenModuleSet:
+    localRepository: "default"
+  pipeline-model-docker:
+    dockerLabel: "Dockerhub"
+    registry:
+      credentialsId: "Dockerhub"
+      url: "https://hub.docker.com/"
+  pollSCM:
+    pollingThreadCount: 10
+  prismConfiguration:
+    theme: PRISM
+  prometheusConfiguration:
+    appendParamLabel: false
+    appendStatusLabel: false
+    collectDiskUsage: true
+    collectingMetricsPeriodInSeconds: 120
+    countAbortedBuilds: true
+    countFailedBuilds: true
+    countNotBuiltBuilds: true
+    countSuccessfulBuilds: true
+    countUnstableBuilds: true
+    defaultNamespace: "default"
+    fetchTestResults: true
+    jobAttributeName: "jenkins_job"
+    path: "prometheus"
+    processingDisabledBuilds: false
+    useAuthenticatedEndpoint: false
+  repository-connector:
+    repositories:
+    - id: "central"
+      releaseRepository:
+        checksum: "warn"
+        update: "daily"
+      snapshotRepository:
+        checksum: "warn"
+        update: "daily"
+      url: "https://repo1.maven.org/maven2"
+  scmGit:
+    addGitTagAction: false
+    allowSecondFetch: false
+    createAccountBasedOnEmail: false
+    disableGitToolChooser: false
+    hideCredentials: false
+    showEntireCommitSummaryInChanges: false
+    useExistingAccountWithSameEmail: false
+  sonarGlobalConfiguration:
+    buildWrapperEnabled: true
+    installations:
+    - credentialsId: "sonarqube-token-latest"
+      name: "Sonar"
+      serverUrl: "http://ec2-52-15-92-108.us-east-2.compute.amazonaws.com:9000/"
+      triggers:
+        skipScmCause: false
+        skipUpstreamCause: false
+      webhookSecretId: "sonarqube-token-latest"
+  sshPublisher:
+    commonConfig:
+      disableAllExec: false
+      encryptedPassphrase: "{AQAAABAAAABABe3oE0TuD2sG/ovAYm8y82SgJIOrLdisZi6hkgydBoeFS1lzubqSGn4gcxhs5WTbm6+/Oj+yHY/KikxnpQP+HyCyEkXY36TFOVsQStW0P0Q=}"
+  subversionSCM:
+    workspaceFormat: 8
+  timestamper:
+    allPipelines: false
+    elapsedTimeFormat: "'<b>'HH:mm:ss.S'</b> '"
+    systemTimeFormat: "'<b>'HH:mm:ss'</b> '"
+  whitelist:
+    enabled: false
+tool:
+  ansibleInstallation:
+    installations:
+    - home: "/usr/bin/"
+      name: "ansible "
+  git:
+    installations:
+    - home: "/usr/bin/git"
+      name: "Default"
+  jdk:
+    installations:
+    - home: "/usr/bin/java"
+      name: "java"
+  maven:
+    installations:
+    - home: "/usr/share/maven"
+      name: "maven"
+  mavenGlobalConfig:
+    globalSettingsProvider: "standard"
+    settingsProvider: "standard"
+  pipelineMaven:
+    triggerDownstreamUponResultAborted: false
+    triggerDownstreamUponResultFailure: false
+    triggerDownstreamUponResultNotBuilt: false
+    triggerDownstreamUponResultSuccess: true
+    triggerDownstreamUponResultUnstable: false
+  sonarRunnerInstallation:
+    installations:
+    - name: "sonarqube"
+      properties:
+      - installSource:
+          installers:
+          - sonarRunnerInstaller:
+              id: "4.7.0.2747"
+  terraform:
+    installations:
+    - home: "/usr/bin"
+      name: "jenkins-terraform"

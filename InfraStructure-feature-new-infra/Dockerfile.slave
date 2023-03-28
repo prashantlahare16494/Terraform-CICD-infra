@@ -1,0 +1,17 @@
+# Dockerfile
+FROM jenkins/ssh-agent:jdk11
+
+USER root
+
+RUN apt-get update
+RUN apt-get --yes install apt-utils
+RUN apt-get --yes upgrade
+RUN apt-get install git -y
+RUN apt-get install maven -y
+RUN apt-get install openjdk-11-jdk -y
+RUN apt-get install ansible -y
+
+RUN mkdir /etc/ansible
+
+COPY hosts /etc/ansible/hosts
+COPY ansible.cfg /etc/ansible/ansible.cfg

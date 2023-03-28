@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+  nginx-proxy:
+    image: nginx-sonarqube:0.1
+    container_name: nginx-server
+    ports:
+      - '443:443'
+      - '80:80'
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - nginx-volume:/var/lib/nginx-data
+volumes:
+  nginx-volume: {}

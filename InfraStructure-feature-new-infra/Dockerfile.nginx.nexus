@@ -1,0 +1,16 @@
+# Pull the minimal Ubuntu image
+FROM tomcat:latest
+USER root
+# Install Nginx
+RUN  apt-get -y update
+RUN  apt-get -y install nginx
+RUN  apt-get -y install certbot
+RUN  apt-get -y install sudo
+RUN  apt-get -y install nano
+RUN  service nginx start
+
+# Copy the Nginx config
+COPY default.nexus /etc/nginx/sites-available/
+RUN mv /etc/nginx/sites-available/default.nexus /etc/nginx/sites-available/default
+EXPOSE 443:443
+EXPOSE 80:80

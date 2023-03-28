@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e816222-6c3a-4d22-ade9-79d0e5ef16cf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/Dockerfile.master" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/Dockerfile.slave" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/docker-compose-sonarqube.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/docker-compose.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/hosts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/infra_key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/infra_key.pub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/install_jenkins.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/jenkins-casc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/plugins.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/sonarqube.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/terraform.tfvars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkins-master/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nginx-jenkins/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Nginx-sonarqube/Dockerfile.nginx.sonarqube" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nginx-jenkins/default" beforeDir="false" afterPath="$PROJECT_DIR$/Nginx-jenkins/default" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nginx-nexus/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Nginx-nexus/Dockerfile.nginx.nexus" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nginx-sonarqube/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Nginx-jenkins/Dockerfile.nginx.jenkins" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature-infra-terraform" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JWvK1ZYmzuhqfLSptISLRqI35M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e816222-6c3a-4d22-ade9-79d0e5ef16cf" name="Changes" comment="" />
+      <created>1672206585244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672206585244</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
