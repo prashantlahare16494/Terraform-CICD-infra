@@ -2,8 +2,6 @@
 
 FROM jenkins/jenkins:2.376
 
-#user is jenkins
-
 USER jenkins
 
 # copy the list of plugins we want to install
